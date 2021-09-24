@@ -1,0 +1,9 @@
+import pyqrcode
+
+content="'HI! THIS IS ROHIT HERE'HERE IS MY LINKED IN PROFILE: https://www.linkedin.com/in/rohit-hait-60aab0209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEZT46sCNSWagfEeGByrq3Q%3D%3D "
+
+url=pyqrcode.create(content)
+
+url.png("myqr.png", scale=6)
+
+print("QR CODE GENERATED SUCCESFULLY")
